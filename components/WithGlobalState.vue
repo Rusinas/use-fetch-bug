@@ -3,8 +3,8 @@
 p {{ content }}
 
 component(
-    :is=""
-    :content="component"
+    :is="component"
+    :content="content"
 )
 
 </template>

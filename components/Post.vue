@@ -22,7 +22,7 @@ async function getPost() {
 
         console.log('Result?', result)
 
-        post.value = result
+        post.value = result.data.value
     } catch (error) {
         console.error('Error loadign post', error)
     } finally {

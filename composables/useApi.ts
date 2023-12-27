@@ -19,5 +19,5 @@ export async function useApi<T = any>(path: string, options?: FetchOptions) {
     console.log('Response data value', response?.data?.value);
     console.log('\n', )
 
-    return response?.data?.value as T
+    return response as T
 }
